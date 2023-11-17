@@ -1,4 +1,5 @@
 import NavigationButton from './NavigationButton/NavigationButton';
+import NavigationBackground from './NavigationBackground/NavigationBackground';
 
 import githubLogo from '../../assets/github.png';
 import linkedinLogo from '../../assets/linkedin.png';
@@ -12,8 +13,7 @@ const Navigation = () => {
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
             <NavigationButton id="navi-toggle" />
-
-            <div class="navigation__background">&nbsp;</div>
+            <NavigationBackground />
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
