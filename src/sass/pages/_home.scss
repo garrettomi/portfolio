@@ -1,5 +1,5 @@
-$nat4: url('/src/assets/nat-4.jpg?url');
-$nat10: url('/src/assets/nat-10.jpg?url');
+$fujisan: url('/src/assets/fujisan.JPG?url');
+$shrine: url('/src/assets/shrine.jpg?url');
 
 .section-about {
     background-color: $color-grey-light-1;
@@ -17,7 +17,7 @@ $nat10: url('/src/assets/nat-10.jpg?url');
         to right bottom,
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8)),
-        $nat4;
+        $fujisan;
     background-size: cover;
     transform: skewY(-7deg);
     margin-top: -10rem;
@@ -65,7 +65,7 @@ $nat10: url('/src/assets/nat-10.jpg?url');
                                     rgba($color-white, .9) 0%,
                                     rgba($color-white, .9) 50%,
                                     transparent 50%) ,
-                                    $nat10;
+                                    $shrine;
     background-size: 100%;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
@@ -75,7 +75,7 @@ $nat10: url('/src/assets/nat-10.jpg?url');
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 65%,
         transparent 65%) ,
-        $nat10;
+        $shrine;
         background-size: cover;
     }
 
@@ -83,7 +83,7 @@ $nat10: url('/src/assets/nat-10.jpg?url');
         background-image: linear-gradient(to right, 
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 100%),
-        $nat10;
+        $shrine;
     }
 
     &__form {

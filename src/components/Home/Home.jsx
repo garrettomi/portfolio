@@ -6,7 +6,7 @@ import nat3 from '../../assets/nat-3.jpg';
 import nat3Large from '../../assets/nat-3-large.jpg';
 import video from '../../assets/video.mp4'
 import videoWebm from '../../assets/video.webm'
-import nat8 from '../../assets/nat-8.jpg';
+import discoverNikkei from '../../assets/discover_nikkei.png';
 import nat9 from '../../assets/nat-9.jpg';
 
 
@@ -188,17 +188,17 @@ const Home = () => {
             </div>
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
-                We make people genuinely happy
+                Professional Experience
               </h2>
             </div>
             <div className="row">
               <div className="story">
                 <figure className="story__shape">
-                  <img src={nat8} alt="Person on a tour" className="story__img" />
-                  <figcaption className="story__caption">Mary Smith</figcaption>
+                  <img src={discoverNikkei} alt="Discover Nikkei Logo" className="story__img" />
+                  <figcaption className="story__caption">Discover Nikkei</figcaption>
                 </figure>
                 <div className="story__text">
-                  <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
+                  <h3 className="heading-tertiary u-margin-bottom-small">Discover Nikkei - Software Engineer</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
                     ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero
