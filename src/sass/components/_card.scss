@@ -19,7 +19,7 @@ $nannycode: url('/src/assets/nanny-code.jpg?url');
         width: 100%;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
-        border-radius: 3px;
+        border-radius: 20px;
         overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
@@ -216,7 +216,7 @@ $nannycode: url('/src/assets/nanny-code.jpg?url');
         }
 
         &__price-value {
-            font-size: 4rem;
+            font-size: 1rem;
         }
     }
 
