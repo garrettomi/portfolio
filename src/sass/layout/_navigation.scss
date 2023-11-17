@@ -89,6 +89,14 @@
             background-size: 220%;
             transition: all .4s;
 
+            img {
+                height: 5rem;
+                width: 5rem;
+                margin-right: 1.5rem;
+                border-radius: 10px;
+                vertical-align: middle;
+            }
+
             span {
                 margin-right: 1.5rem;
                 display: inline-block;

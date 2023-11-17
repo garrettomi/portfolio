@@ -1,3 +1,4 @@
+import githubLogo from '../../assets/github.png'
 
 const Navigation = () => {
     
@@ -13,16 +14,13 @@ const Navigation = () => {
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About Me</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>LinkedIn</a></li>
+                    <li class="navigation__item"><a href="https://github.com/garrettomi" class="navigation__link" target='_blank'><img src={githubLogo} alt='Github Logo' />Github</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Gmail</a></li>
                     </ul>
             </nav>
-
         </div>
-    );
+    )
 };
 
 export default Navigation;

@@ -30,7 +30,7 @@ const Home = () => {
                 <p className="paragraph">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
                 </p>
-                <a href="#" className="btn-text">Learn more →</a>
+                {/* <a href="#" className="btn-text">Learn more →</a> */}
               </div>
               <div className="col-1-of-2">
                 <div className="composition">
