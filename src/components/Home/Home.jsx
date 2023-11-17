@@ -82,7 +82,7 @@ const Home = () => {
               </div>
             </div>
           </section>
-          <section className="section-tours" id="section-tours">
+          <section className="projects" id="projects">
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
                 Projects

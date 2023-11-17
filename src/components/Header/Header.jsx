@@ -14,7 +14,7 @@ const Header = () => {
                     <span class="heading-primary--sub">Software Engineer</span>
                 </h1>
 
-                <a href="#section-tours" class="btn btn--white btn--animated">Check out my projects</a>
+                <a href="#projects" class="btn btn--white btn--animated">Check out my projects</a>
             </div>
     </header>
     

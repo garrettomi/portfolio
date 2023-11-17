@@ -1,3 +1,7 @@
+$kinjo: url('/src/assets/kinjo_logo.png?url');
+$typemon: url('/src/assets/typemon.jpg?url');
+$nannycode: url('/src/assets/nanny-code.jpg?url');
+
 .card {
 
     // FUNCTIONALITY
@@ -62,17 +66,22 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            url(../img/nat-5.jpg);
+            $kinjo;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            url(../img/nat-6.jpg);
+            $typemon;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         &--3 {
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
-            url(../img/nat-7.jpg);
+            $nannycode;
+            background-position: center;
         }
     }
 
