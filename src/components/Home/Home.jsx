@@ -189,7 +189,7 @@ const Home = () => {
                         So I simply decided to do what programmers do best: use tech to make life easier.
                         </p>
                       </div>
-                      <a href="#popup" className="btn btn--white">Source Code Coming Soon...</a>
+                      <a className="btn btn--white">Source Code Coming Soon...</a>
                     </div>
                   </div>
                 </div>
@@ -197,6 +197,7 @@ const Home = () => {
             </div>
           </section>
           <section className="section-stories" id="contributions">
+            <a href="https://discovernikkei.org/en/" target="_blank">
             <div className="bg-video">
               <video className="bg-video__content" autoPlay muted loop>
                 <source src={video} type="video/mp4" />
@@ -219,7 +220,7 @@ const Home = () => {
                   <h3 className="heading-tertiary u-margin-bottom-small">Discover Nikkei - Software Engineer</h3>
                   <p>
                     As a yonsei, it's been an amazing honor to write code helping to preserve the largest digital archive of Nikkei history and stories.
-                    Coolest point so far: in the midst of optimizing data transmission for a veterans search filter, I found my actual family members who served in the 442 in the database. 
+                    Coolest point so far: in the midst of optimizing data transmission for a veterans search filter, I found actual family members who served in the 442 stored in the database. 
                   </p>
                 </div>
               </div>
@@ -227,6 +228,7 @@ const Home = () => {
               <a href="#" className="btn btn--green">Back to the top</a>
             </div>
             </div>
+            </a>
             {/* <div className="row">
               <div className="story">
                 <figure className="story__shape">
