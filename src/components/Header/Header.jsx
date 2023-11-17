@@ -14,7 +14,10 @@ const Header = () => {
                     <span class="heading-primary--sub">Software Engineer</span>
                 </h1>
 
-                <a href="#projects" class="btn btn--white btn--animated">Check out my projects</a>
+                <a href="#about-me" class="btn btn--white btn--animated">About Me</a>
+                <a href="#projects" class="btn btn--white btn--animated">Projects</a>
+                <a href="#contributions" class="btn btn--white btn--animated">Experience</a>
+                <a href="#contact" class="btn btn--white btn--animated">Contact</a>
             </div>
     </header>
     

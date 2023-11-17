@@ -1,20 +1,19 @@
-import nat1 from '../../assets/nat-1.jpg';
-import nat1Large from '../../assets/nat-1-large.jpg';
-import nat2 from '../../assets/nat-2.jpg';
-import nat2Large from '../../assets/nat-2-large.jpg';
-import nat3 from '../../assets/nat-3.jpg';
-import nat3Large from '../../assets/nat-3-large.jpg';
+import misterGarrett from '../../assets/mister-garrett.jpeg';
+import misterGarrettLarge from '../../assets/mister-garrett-large.jpg';
+import wedding from '../../assets/wedding.jpeg';
+import weddingLarge from '../../assets/wedding-large.jpg';
+import treffin from '../../assets/treffin.png';
+import treffinLarge from '../../assets/treffin-large.png'
 import video from '../../assets/video.mp4'
 import videoWebm from '../../assets/video.webm'
 import discoverNikkei from '../../assets/discover_nikkei.png';
-import nat9 from '../../assets/nat-9.jpg';
 
 
 const Home = () => {
     return (
 
         <main>
-          <section className="section-about">
+          <section className="section-about" id="about-me">
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
                 About Me
@@ -35,9 +34,9 @@ const Home = () => {
               </div>
               <div className="col-1-of-2">
                 <div className="composition">
-                <img srcSet={`${nat1} 300w, ${nat1Large} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1" className="composition__photo composition__photo--p1" />
-                <img srcSet={`${nat2} 300w, ${nat2Large} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2" className="composition__photo composition__photo--p2" />
-                <img srcSet={`${nat3} 300w, ${nat3Large} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3" className="composition__photo composition__photo--p3" />
+                <img srcSet={`${misterGarrett} 300w, ${misterGarrettLarge} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1" className="composition__photo composition__photo--p1" />
+                <img srcSet={`${wedding} 300w, ${weddingLarge} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2" className="composition__photo composition__photo--p2" />
+                <img srcSet={`${treffin} 300w, ${treffinLarge} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3" className="composition__photo composition__photo--p3" />
                 </div>
               </div>
             </div>
@@ -178,7 +177,7 @@ const Home = () => {
               <a href="#" className="btn btn--green">Back to the top</a>
             </div>
           </section>
-          <section className="section-stories">
+          <section className="section-stories" id="contributions">
             <div className="bg-video">
               <video className="bg-video__content" autoPlay muted loop>
                 <source src={video} type="video/mp4" />
@@ -188,7 +187,7 @@ const Home = () => {
             </div>
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
-                Professional Experience
+                Contributing with
               </h2>
             </div>
             <div className="row">
@@ -207,10 +206,10 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div className="story">
                 <figure className="story__shape">
-                  <img src={nat9} alt="Person on a tour" className="story__img" />
+                  <img src={discoverNikkei} alt="Person on a tour" className="story__img" />
                   <figcaption className="story__caption">Jack Wilson</figcaption>
                 </figure>
                 <div className="story__text">
@@ -222,19 +221,19 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="u-center-text u-margin-top-huge">
+            </div> */}
+            {/* <div className="u-center-text u-margin-top-huge">
               <a href="#" className="btn-text">Read all stories →</a>
-            </div>
+            </div> */}
           </section>
-          <section className="section-book">
+          <section className="section-book" id='contact'>
             <div className="row">
               <div className="book">
                 <div className="book__form">
                   <form action="#" className="form">
                     <div className="u-margin-bottom-medium">
                       <h2 className="heading-secondary">
-                        Start booking now
+                        Let's talk!
                       </h2>
                     </div>
                     <div className="form__group">
@@ -250,14 +249,14 @@ const Home = () => {
                         <input type="radio" className="form__radio-input" id="small" name="size" />
                         <label htmlFor="small" className="form__radio-label">
                           <span className="form__radio-button" />
-                          Small tour group
+                          Career Opportunity
                         </label>
                       </div>
                       <div className="form__radio-group">
                         <input type="radio" className="form__radio-input" id="large" name="size" />
                         <label htmlFor="large" className="form__radio-label">
                           <span className="form__radio-button" />
-                          Large tour group
+                          Collaboration
                         </label>
                       </div>
                     </div>
