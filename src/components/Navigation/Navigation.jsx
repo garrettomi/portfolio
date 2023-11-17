@@ -1,16 +1,17 @@
+import NavigationButton from './NavigationButton/NavigationButton';
+
 import githubLogo from '../../assets/github.png';
 import linkedinLogo from '../../assets/linkedin.png';
 // import mailLogo from '../../assets/mail.png'
+
 
 const Navigation = () => {
     
     return (
         <div className='navigation'>
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
-            
-            <label for="navi-toggle" class="navigation__button">
-                <span class="navigation__icon">&nbsp;</span>
-            </label>
+
+            <NavigationButton id="navi-toggle" />
 
             <div class="navigation__background">&nbsp;</div>
 
