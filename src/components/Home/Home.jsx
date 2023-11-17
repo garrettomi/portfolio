@@ -13,7 +13,7 @@ const Home = () => {
     return (
 
         <main>
-          <section className="section-about" id="about-me">
+          <section className="section-about" id="about">
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
                 About Me
@@ -226,7 +226,7 @@ const Home = () => {
               <a href="#" className="btn-text">Read all stories →</a>
             </div> */}
           </section>
-          <section className="section-book" id='contact'>
+          {/* <section className="section-book" id='contact'>
             <div className="row">
               <div className="book">
                 <div className="book__form">
@@ -267,7 +267,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </main>
       );
     }
