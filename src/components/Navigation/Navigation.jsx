@@ -1,6 +1,6 @@
 import githubLogo from '../../assets/github.png';
 import linkedinLogo from '../../assets/linkedin.png';
-import mailLogo from '../../assets/mail.png'
+// import mailLogo from '../../assets/mail.png'
 
 const Navigation = () => {
     
