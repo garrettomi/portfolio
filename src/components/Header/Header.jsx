@@ -1,11 +1,11 @@
-import logoWhite from '../../assets/logo-white.png';
+import headshot from '../../assets/headshot-photo.png';
 
 
 const Header = () => {
     return (
     <header className='header'>
                     <div class="header__logo-box">
-                <img src={logoWhite} alt="Logo" class="header__logo" />
+                <img src={headshot} alt="headshot" class="header__logo" />
             </div>
 
             <div class="header__text-box">

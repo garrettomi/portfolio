@@ -1,5 +1,5 @@
-$hero-small: url('/src/assets/hero-small.jpg?url');
-$hero: url('/src/assets/hero.jpg?url');
+// $hero-small: url('/src/assets/hero-small.jpg?url');
+// $hero: url('/src/assets/hero.jpg?url');
 
 
 .header {
@@ -7,8 +7,8 @@ $hero: url('/src/assets/hero.jpg?url');
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8)),
-    $hero-small;
+        rgba($color-primary-dark, 0.8));
+    // $hero-small;
     background-size: cover;
     background-position: top;
     position: relative;
@@ -27,7 +27,7 @@ $hero: url('/src/assets/hero.jpg?url');
             to right bottom,
             rgba($color-primary-light, 0.8),
             rgba($color-primary-dark, 0.8)),
-        $hero;
+        // $hero;
     }
 
     @include respond(phone) {
@@ -42,7 +42,8 @@ $hero: url('/src/assets/hero.jpg?url');
     }
 
     &__logo {
-        height: 3.5rem;
+        height: 15.5rem;
+        border-radius: 50px;
     }
     
     &__text-box {
