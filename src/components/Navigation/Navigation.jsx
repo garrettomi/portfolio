@@ -1,6 +1,6 @@
 
 const Navigation = () => {
-
+    
     return (
         <div className='navigation'>
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />

@@ -1,3 +1,14 @@
+import nat1 from '../../assets/nat-1.jpg';
+import nat1Large from '../../assets/nat-1-large.jpg';
+import nat2 from '../../assets/nat-2.jpg';
+import nat2Large from '../../assets/nat-2-large.jpg';
+import nat3 from '../../assets/nat-3.jpg';
+import nat3Large from '../../assets/nat-3-large.jpg';
+import video from '../../assets/video.mp4'
+import videoWebm from '../../assets/video.webm'
+import nat8 from '../../assets/nat-8.jpg';
+import nat9 from '../../assets/nat-9.jpg';
+
 
 const Home = () => {
     return (
@@ -24,14 +35,9 @@ const Home = () => {
               </div>
               <div className="col-1-of-2">
                 <div className="composition">
-                  <img srcSet="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1" className="composition__photo composition__photo--p1" src="img/nat-1-large.jpg" />
-                  <img srcSet="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2" className="composition__photo composition__photo--p2" src="img/nat-2-large.jpg" />
-                  <img srcSet="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3" className="composition__photo composition__photo--p3" src="img/nat-3-large.jpg" />
-                  {/*
-                              <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                              <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                              <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
-                              */}
+                <img srcSet={`${nat1} 300w, ${nat1Large} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1" className="composition__photo composition__photo--p1" />
+                <img srcSet={`${nat2} 300w, ${nat2Large} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2" className="composition__photo composition__photo--p2" />
+                <img srcSet={`${nat3} 300w, ${nat3Large} 1000w`} sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3" className="composition__photo composition__photo--p3" />
                 </div>
               </div>
             </div>
@@ -181,8 +187,8 @@ const Home = () => {
           <section className="section-stories">
             <div className="bg-video">
               <video className="bg-video__content" autoPlay muted loop>
-                <source src="img/video.mp4" type="video/mp4" />
-                <source src="img/video.webm" type="video/webm" />
+                <source src={video} type="video/mp4" />
+                <source src={videoWebm} type="video/webm" />
                 Your browser is not supported!
               </video>
             </div>
@@ -194,7 +200,7 @@ const Home = () => {
             <div className="row">
               <div className="story">
                 <figure className="story__shape">
-                  <img src="img/nat-8.jpg" alt="Person on a tour" className="story__img" />
+                  <img src={nat8} alt="Person on a tour" className="story__img" />
                   <figcaption className="story__caption">Mary Smith</figcaption>
                 </figure>
                 <div className="story__text">
@@ -210,7 +216,7 @@ const Home = () => {
             <div className="row">
               <div className="story">
                 <figure className="story__shape">
-                  <img src="img/nat-9.jpg" alt="Person on a tour" className="story__img" />
+                  <img src={nat9} alt="Person on a tour" className="story__img" />
                   <figcaption className="story__caption">Jack Wilson</figcaption>
                 </figure>
                 <div className="story__text">
