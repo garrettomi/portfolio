@@ -21,7 +21,7 @@ const Projects = () => {
                       <ul>
                         <li>Web Application</li>
                         <li>React, Typescript, Node.js, Prisma, PostgreSQL</li>
-                        <li>An application for English-speaking locals in Japan to share and learn about hidden neighborhood destinations.</li>
+                        <li>An application for English-speaking locals in Japan to share and learn about hidden neighborhood destinations</li>
                       </ul>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ const Projects = () => {
                     <div className="card__cta">
                       <div className="card__price-box">
                         <p className="card__price-only">In Progress</p>
-                        <p className="card__price-value">While not yet completed yet, this script came after acknowledging how much time my wife and I wasted copy and pasting discount codes daily for a childcare subsidiary program.
+                        <p className="card__price-value">While not yet completed, this script came after acknowledging how much time my wife and I wasted copy and pasting discount codes daily for a childcare subsidiary program.
                         On one-hand, I really can't complain about the sweet deals provided by the Japanese government for new parents. 
                         On the otherhand, dealing with two logins, two websites and mundane copy and pasting every day is a pain in the ass.
                         So I simply decided to do what programmers do best: use tech to make life easier.
