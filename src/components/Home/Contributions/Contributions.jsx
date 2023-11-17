@@ -1,3 +1,5 @@
+import BackgroundVideo from './BackgroundVideo/BackgroundVideo';
+
 import video from '../../../assets/video.mp4';
 import videoWebm from '../../../assets/video.webm';
 import discoverNikkei from '../../../assets/discover_nikkei.png';
@@ -5,13 +7,7 @@ import discoverNikkei from '../../../assets/discover_nikkei.png';
 const Contributions = () => {
     return (
         <section className="section-stories" id="contributions">
-            <div className="bg-video">
-              <video className="bg-video__content" autoPlay muted loop>
-                <source src={video} type="video/mp4" />
-                <source src={videoWebm} type="video/webm" />
-                Your browser is not supported!
-              </video>
-            </div>
+            <BackgroundVideo video={video} videoWebm={videoWebm} />
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
                 Contributing with
