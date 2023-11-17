@@ -218,9 +218,8 @@ const Home = () => {
                 <div className="story__text">
                   <h3 className="heading-tertiary u-margin-bottom-small">Discover Nikkei - Software Engineer</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
-                    ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero
-                    repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.
+                    As a yonsei, it's been an amazing honor to write code helping to preserve the largest digital archive of Nikkei history and stories.
+                    Coolest point so far: in the midst of optimizing data transmission for a veterans search filter, I found my actual family members who served in the 442 in the database. 
                   </p>
                 </div>
               </div>
