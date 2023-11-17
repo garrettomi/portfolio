@@ -10,7 +10,7 @@ const Projects = () => {
             </div>
             <div className="row">
               <div className="col-1-of-3">
-                <ProjectCard
+              <ProjectCard
                 href="https://www.kinjo-japan.com/"
                 imgClass="card__picture--1"
                 heading="KINJO"
