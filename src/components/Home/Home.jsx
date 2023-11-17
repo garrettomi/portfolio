@@ -197,7 +197,6 @@ const Home = () => {
             </div>
           </section>
           <section className="section-stories" id="contributions">
-            <a href="https://discovernikkei.org/en/" target="_blank">
             <div className="bg-video">
               <video className="bg-video__content" autoPlay muted loop>
                 <source src={video} type="video/mp4" />
@@ -212,6 +211,7 @@ const Home = () => {
             </div>
             <div className="row">
               <div className="story">
+            <a href="https://discovernikkei.org/en/" className="nikkei-link" target="_blank">
                 <figure className="story__shape">
                   <img src={discoverNikkei} alt="Discover Nikkei Logo" className="story__img" />
                   <figcaption className="story__caption">Discover Nikkei</figcaption>
@@ -223,12 +223,12 @@ const Home = () => {
                     Coolest point so far: in the midst of optimizing data transmission for a veterans search filter, I found actual family members who served in the 442 stored in the database. 
                   </p>
                 </div>
+              </a>
               </div>
               <div className="u-center-text u-margin-top-huge">
               <a href="#" className="btn btn--green">Back to the top</a>
             </div>
             </div>
-            </a>
             {/* <div className="row">
               <div className="story">
                 <figure className="story__shape">
