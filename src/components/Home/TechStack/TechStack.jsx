@@ -1,7 +1,7 @@
-import reactLogo from '../../assets/react-icon.png';
-import pythonLogo from '../../assets/python-logo.png';
-import djangoLogo from '../../assets/django-logo.png';
-import nodejsLogo from '../../assets/nodejs-logo.png';
+import reactLogo from '../../../assets/react-icon.png';
+import pythonLogo from '../../../assets/python-logo.png';
+import djangoLogo from '../../../assets/django-logo.png';
+import nodejsLogo from '../../../assets/nodejs-logo.png';
 
 const TechStack = () => {
     return (

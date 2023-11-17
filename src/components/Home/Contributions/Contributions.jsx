@@ -1,6 +1,6 @@
-import video from '../../assets/video.mp4';
-import videoWebm from '../../assets/video.webm';
-import discoverNikkei from '../../assets/discover_nikkei.png';
+import video from '../../../assets/video.mp4';
+import videoWebm from '../../../assets/video.webm';
+import discoverNikkei from '../../../assets/discover_nikkei.png';
 
 const Contributions = () => {
     return (

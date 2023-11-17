@@ -1,7 +1,7 @@
-import About from '../About/About';
-import TechStack from '../TechStack/TechStack';
-import Projects from '../Projects/Projects';
-import Contributions from '../Contributions/Contributions';
+import About from './About/About';
+import TechStack from './TechStack/TechStack';
+import Projects from './Projects/Projects';
+import Contributions from './Contributions/Contributions';
 
 
 const Home = () => {

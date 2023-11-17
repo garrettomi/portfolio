@@ -7,7 +7,7 @@ const Navigation = () => {
     return (
         <div className='navigation'>
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
-
+            
             <label for="navi-toggle" class="navigation__button">
                 <span class="navigation__icon">&nbsp;</span>
             </label>

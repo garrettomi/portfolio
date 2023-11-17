@@ -1,9 +1,9 @@
-import misterGarrett from '../../assets/mister-garrett.jpeg';
-import misterGarrettLarge from '../../assets/mister-garrett-large.jpg';
-import wedding from '../../assets/wedding.jpeg';
-import weddingLarge from '../../assets/wedding-large.jpg';
-import treffin from '../../assets/treffin.png';
-import treffinLarge from '../../assets/treffin-large.png';
+import misterGarrett from '../../../assets/mister-garrett.jpeg';
+import misterGarrettLarge from '../../../assets/mister-garrett-large.jpg';
+import wedding from '../../../assets/wedding.jpeg';
+import weddingLarge from '../../../assets/wedding-large.jpg';
+import treffin from '../../../assets/treffin.png';
+import treffinLarge from '../../../assets/treffin-large.png';
 
 const About = () => {
     return (
