@@ -1,5 +1,6 @@
 import NavigationButton from './NavigationButton/NavigationButton';
 import NavigationBackground from './NavigationBackground/NavigationBackground';
+import NavigationList from './NavigationList/NavigationList';
 
 import githubLogo from '../../assets/github.png';
 import linkedinLogo from '../../assets/linkedin.png';
@@ -7,6 +8,20 @@ import linkedinLogo from '../../assets/linkedin.png';
 
 
 const Navigation = () => {
+    const items = [
+        {
+            href: "https://www.linkedin.com/in/garrett-omi/",
+            alt: "LinkedIn Logo",
+            src: linkedinLogo,
+            children: "LinkedIn"
+        },
+        {
+            href: "https://github.com/garrettomi",
+            alt: "Github Logo",
+            src: githubLogo,
+            children: "Github"
+        }
+    ]
     
     return (
         <div className='navigation'>
@@ -14,13 +29,8 @@ const Navigation = () => {
 
             <NavigationButton id="navi-toggle" />
             <NavigationBackground />
-
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a href="https://www.linkedin.com/in/garrett-omi/" class="navigation__link" target='_blank'><img src={linkedinLogo} alt='LinkedIn Logo' />LinkedIn</a></li>
-                    <li class="navigation__item"><a href="https://github.com/garrettomi" class="navigation__link" target='_blank'><img src={githubLogo} alt='Github Logo' />Github</a></li>
-                    {/* <li class="navigation__item"><a href="#" class="navigation__link"><img src={mailLogo} alt='Mail Logo' />omigarrett@gmail.com</a></li> */}
-                    </ul>
+            <nav className="navigation__nav">
+                <NavigationList items={items} />
             </nav>
         </div>
     )
