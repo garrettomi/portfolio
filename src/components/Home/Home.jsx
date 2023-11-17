@@ -112,7 +112,7 @@ const Home = () => {
                         <p className="card__price-only">My involvement</p>
                         <p className="card__price-value">Explanation of project</p>
                       </div>
-                      <a href="#popup" className="btn btn--white">Check it out!</a>
+                      <a href="https://www.kinjo-japan.com/" className="btn btn--white" target="_blank">Check it out!</a>
                     </div>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const Home = () => {
                       <p className="card__price-only">My involvement</p>
                         <p className="card__price-value">Explanation of project</p>
                       </div>
-                      <a href="#popup" className="btn btn--white">Check it out!</a>
+                      <a href="https://solo-mvp-frontend.vercel.app/login" className="btn btn--white" target="_blank">Check it out!</a>
                     </div>
                   </div>
                 </div>
