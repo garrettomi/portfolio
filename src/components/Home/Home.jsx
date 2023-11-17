@@ -187,9 +187,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="u-center-text u-margin-top-huge">
-              <a href="#" className="btn btn--green">Back to the top</a>
-            </div>
           </section>
           <section className="section-stories" id="contributions">
             <div className="bg-video">
@@ -219,6 +216,9 @@ const Home = () => {
                   </p>
                 </div>
               </div>
+              <div className="u-center-text u-margin-top-huge">
+              <a href="#" className="btn btn--green">Back to the top</a>
+            </div>
             </div>
             {/* <div className="row">
               <div className="story">

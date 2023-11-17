@@ -1,21 +1,21 @@
-import logoGreenSmall from '../../assets/logo-green-small-1x.png'
-import logoGreenSmall2 from '../../assets/logo-green-small-2x.png'
-import logoGreen from '../../assets/logo-green-1x.png'
-import logoGreen2 from '../../assets/logo-green-2x.png'
-import githubLogo from '../../assets/github.png';
-import linkedinLogo from '../../assets/linkedin.png';
+// import logoGreenSmall from '../../assets/logo-green-small-1x.png'
+// import logoGreenSmall2 from '../../assets/logo-green-small-2x.png'
+// import logoGreen from '../../assets/logo-green-1x.png'
+// import logoGreen2 from '../../assets/logo-green-2x.png'
+// import githubLogo from '../../assets/github.png';
+// import linkedinLogo from '../../assets/linkedin.png';
 
 
 const Footer = () => {
 
     return (
         <footer className="footer">
-          <div className="footer__logo-box">
+          {/* <div className="footer__logo-box">
             <picture className="footer__logo">
               <source srcSet={`${logoGreenSmall}, ${logoGreenSmall2}`} media="(max-width: 37.5em)" />
               <img srcSet={`${logoGreen} 1x, ${logoGreen2} 2x"`} alt="Full logo" src={`${logoGreen2}`} />
             </picture>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-1-of-2">
               <div className="footer__navigation">
