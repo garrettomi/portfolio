@@ -1,5 +1,7 @@
 import githubLogo from '../../assets/github.png';
 import linkedinLogo from '../../assets/linkedin.png';
+import gmailLogo from '../../assets/gmail-logo.png';
+import mailLogo from '../../assets/mail.png'
 
 const Navigation = () => {
     
@@ -17,7 +19,7 @@ const Navigation = () => {
                 <ul class="navigation__list">
                     <li class="navigation__item"><a href="https://www.linkedin.com/in/garrett-omi/" class="navigation__link" target='_blank'><img src={linkedinLogo} alt='LinkedIn Logo' />LinkedIn</a></li>
                     <li class="navigation__item"><a href="https://github.com/garrettomi" class="navigation__link" target='_blank'><img src={githubLogo} alt='Github Logo' />Github</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Gmail</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><img src={mailLogo} alt='Mail Logo' />omigarrett@gmail.com</a></li>
                     </ul>
             </nav>
         </div>

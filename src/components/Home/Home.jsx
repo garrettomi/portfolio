@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             <div className="row">
               <div className="col-1-of-2">
-                <h3 className="heading-tertiary u-margin-bottom-small">From educator to programmer</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small">From educator to engineer</h3>
                 <p className="paragraph">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
                   ducimus quam nisi exercitationem omnis earum qui.
