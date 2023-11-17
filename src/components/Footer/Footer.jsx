@@ -1,3 +1,8 @@
+import logoGreenSmall from '../../assets/logo-green-small-1x.png'
+import logoGreenSmall2 from '../../assets/logo-green-small-2x.png'
+import logoGreen from '../../assets/logo-green-1x.png'
+import logoGreen2 from '../../assets/logo-green-2x.png'
+
 
 const Footer = () => {
 
@@ -5,8 +10,8 @@ const Footer = () => {
         <footer className="footer">
           <div className="footer__logo-box">
             <picture className="footer__logo">
-              <source srcSet="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)" />
-              <img srcSet="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" src="img/logo-green-2x.png" />
+              <source srcSet={`${logoGreenSmall}, ${logoGreenSmall2}`} media="(max-width: 37.5em)" />
+              <img srcSet={`${logoGreen} 1x, ${logoGreen2} 2x"`} alt="Full logo" src={`${logoGreen2}`} />
             </picture>
           </div>
           <div className="row">
@@ -23,10 +28,7 @@ const Footer = () => {
             </div>
             <div className="col-1-of-2">
               <p className="footer__copyright">
-                Built by <a href="#" className="footer__link">Jonas Schmedtmann</a> for his online course <a href="#" className="footer__link">Advanced CSS and Sass</a>.
-                Copyright © by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal
-                and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas
-                Schmedtmann, is of course highly appreciated!
+                Some text
               </p>
             </div>
           </div>
