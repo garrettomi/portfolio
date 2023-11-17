@@ -1,4 +1,5 @@
 import BackgroundVideo from './BackgroundVideo/BackgroundVideo';
+import Contribution from './Contribution/Contribution';
 
 import video from '../../../assets/video.mp4';
 import videoWebm from '../../../assets/video.webm';
@@ -15,19 +16,7 @@ const Contributions = () => {
             </div>
             <div className="row">
               <div className="story">
-            <a href="https://discovernikkei.org/en/" className="nikkei-link" target="_blank">
-                <figure className="story__shape">
-                  <img src={discoverNikkei} alt="Discover Nikkei Logo" className="story__img" />
-                  <figcaption className="story__caption">Discover Nikkei</figcaption>
-                </figure>
-                <div className="story__text">
-                  <h3 className="heading-tertiary u-margin-bottom-small">Discover Nikkei - Software Engineer - Python, Django</h3>
-                  <p>
-                    As a yonsei, it's been an amazing honor to write code helping to preserve the largest digital archive of Nikkei history and stories.
-                    Coolest point so far: in the midst of optimizing data transmission for a veterans search filter, I found actual family members who served in the 442 stored in the database. 
-                  </p>
-                </div>
-              </a>
+              <Contribution href="https://discovernikkei.org/en/" alt="Discover Nikkei Logo" src={discoverNikkei} main="Discover Nikkei" sub="Discover Nikkei - Software Engineer - Python, Django"/>
               </div>
               <div className="u-center-text u-margin-top-huge">
               <a href="#" className="btn btn--green">Back to the top</a>
