@@ -2,8 +2,8 @@
 const Badges = ({ logo, altText }) => {
 
     return (
-        <div className='feature-box'>
-            <img src={logo} alt={altText} className='feature-box__icon' />
+        <div className='tech-stack'>
+            <img src={logo} alt={altText} className='tech-stack__icon' />
         </div>
     );
 };

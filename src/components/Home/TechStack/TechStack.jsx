@@ -14,7 +14,7 @@ const TechStack = () => {
     ]
 
     return (
-        <section className="section-features">
+        <section className="section-tech-stack">
         <div className="u-center-text u-margin-bottom-big">
             <h2 className="heading-secondary">
               Tech Stack

@@ -7,7 +7,7 @@ import discoverNikkei from '../../../assets/discover_nikkei.png';
 
 const Contributions = () => {
     return (
-        <section className="section-stories" id="contributions">
+        <section className="section-contributions" id="contributions">
             <BackgroundVideo video={video} videoWebm={videoWebm} />
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
