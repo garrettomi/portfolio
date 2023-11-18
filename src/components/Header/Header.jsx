@@ -4,7 +4,6 @@ import Button from './Button/Button';
 import BackgroundVideo from './BackgroundVideo/BackgroundVideo';
 
 import headshot from '../../assets/headshot-photo.png';
-
 import video from '../../assets/video.mp4';
 import videoWebm from '../../assets/video.webm';
 
