@@ -45,8 +45,8 @@ $shrine: url('/src/assets/shrine.jpg?url');
 .section-contributions {
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.9),
-        rgba($color-primary-dark, 0.3)),
+        rgba($color-primary-light, 1.2),
+        rgba($color-primary-dark, 0.2)),
         $shrine;
     background-size: cover;
     padding: 12rem 0;

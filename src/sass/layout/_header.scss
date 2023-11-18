@@ -1,14 +1,9 @@
-// $hero-small: url('/src/assets/hero-small.jpg?url');
-// $hero: url('/src/assets/hero.jpg?url');
-
-
 .header {
     height: 85vh;
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.8),
         rgba($color-primary-dark, 0.8));
-    // $hero-small;
     background-size: cover;
     background-position: top;
     border-radius: 5px;
