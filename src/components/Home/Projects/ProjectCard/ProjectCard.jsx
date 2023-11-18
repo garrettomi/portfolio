@@ -1,5 +1,5 @@
 
-const ProjectCard = ({href, imgClass, heading, details, cta, btnText}) => {
+const ProjectCard = ({href, imgClass, heading, frontDetails, backDescription, cta, btnText}) => {
 
     return (
         <div className="card">
@@ -13,8 +13,8 @@ const ProjectCard = ({href, imgClass, heading, details, cta, btnText}) => {
                     <div className="card__details">
                       <ul>
                         {
-                            details.map((detail, index) => (
-                                <li key={index}>{detail}</li>
+                            frontDetails.map((frontDetail, index) => (
+                                <li key={index}>{frontDetail}</li>
                             ))
                         }
                         </ul>
@@ -24,8 +24,7 @@ const ProjectCard = ({href, imgClass, heading, details, cta, btnText}) => {
                     <div className="card__cta">
                       <div className="card__price-box">
                         <p className="card__price-only">{cta}</p>
-                        <p className="card__price-value">{details[3]}
-                        </p>
+                        <p className="card__price-value">{backDescription}</p>
                       </div>
                       <a href={href} className="btn btn--white" target="_blank">{btnText}</a>
                     </div>
