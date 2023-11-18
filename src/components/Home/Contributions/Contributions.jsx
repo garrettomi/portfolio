@@ -15,7 +15,7 @@ const Contributions = () => {
               </h2>
             </div>
             <div className="row">
-              <div className="story">
+              <div className="organization">
               <Contribution href="https://discovernikkei.org/en/" alt="Discover Nikkei Logo" src={discoverNikkei} main="Discover Nikkei" sub="Discover Nikkei - Software Engineer - Python, Django"/>
               </div>
               <div className="u-center-text u-margin-top-huge">
