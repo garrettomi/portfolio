@@ -45,13 +45,14 @@ $shrine: url('/src/assets/shrine.jpg?url');
 .section-contributions {
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8));
-    position: relative;
-    padding: 15rem 0;
+        rgba($color-primary-light, 0.9),
+        rgba($color-primary-dark, 0.3)),
+        $shrine;
+    background-size: cover;
+    padding: 12rem 0;
 
     @include respond(tab-port) {
-        padding: 10rem 0;
+        padding: 7rem 0;
     }
 
     .nikkei-link:link, .nikkei-link:visited, .nikkei-link:active {
