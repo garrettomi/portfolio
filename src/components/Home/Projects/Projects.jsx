@@ -35,7 +35,7 @@ const Projects = () => {
               <ProjectCard 
                 href="#" 
                 imgClass="card__picture--3" 
-                heading="Kidsline Discount Code Automator" 
+                heading="Automated Nanny Script" 
                 frontDetails={["Automated Python Script", "Python, Selenium, Web-Scraping", "For boosting efficiency in inputting discounted nanny codes through a Japanese childcare subsidiary program"]} 
                 backDescription="While not yet completed, this script came after acknowledging how much time my wife and I wasted copy and pasting discount codes daily for a childcare subsidiary program. On one-hand, I really can't complain about the sweet deals provided by the Japanese government for new parents. On the otherhand, dealing with two logins, two websites and mundane copy and pasting every day is a pain in the ass. So I simply decided to do what programmers do best: use tech to make life easier."
                 backHeading="In Progress" 
