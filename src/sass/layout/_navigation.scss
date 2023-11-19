@@ -1,4 +1,4 @@
-$mail: url('/src/assets/mail.png?url');
+$mail: url('/src/assets/chat.jpg?url');
 
 .navigation {
 
@@ -20,7 +20,7 @@ $mail: url('/src/assets/mail.png?url');
         cursor: pointer;
         background-image: $mail;
         background-repeat: no-repeat;
-        background-size: 60%;
+        background-size: 80%;
         background-position: center;
         transition: background-size 0.5s ease-in-out;
 
@@ -36,7 +36,7 @@ $mail: url('/src/assets/mail.png?url');
     }
 
     &__button:hover {
-        background-size: 80%;
+        background-size: 100%;
     }
 
     &__background {
