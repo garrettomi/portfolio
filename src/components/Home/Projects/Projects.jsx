@@ -16,7 +16,7 @@ const Projects = () => {
                 heading="KINJO"
                 frontDetails={["Web Application", "React, Typescript, Node.js, Prisma, PostgreSQL", "An application for English-speaking locals in Japan to share and learn about hidden neighborhood destinations"]}
                 backDescription= "Since I wander around Tokyo so much by bike, I'm a big lover of anything map-related when it comes to apps. Working on KINJO's map gave me free-range to nerd out and implement the map features I'd always dreamed of using with a team of equally passionate Japan enthusiasts."
-                cta="Behind-the-scenes"
+                backHeading="Behind-the-scenes"
                 btnText="Check it out!"
                 />
               </div>
@@ -27,7 +27,7 @@ const Projects = () => {
                 heading="Typemon" 
                 frontDetails={["Web Application", "Next.js, Express.js, Node.js, Knex.js, PostgreSQL", "A Pokemon typing game which tests a users typing agility and accuracy with knowledge of Pokemon"]} 
                 backDescription="As a 90's kid, I grew up with typing games and Saturday morning Pokemon so I figured, why not put my two childhood experiences together? It was an absolute joy interacting with the official PokeAPI and sifting through the huge amounts of Pokemon data to make this thing a reality."
-                cta="Behind-the-scenes" 
+                backHeading="Behind-the-scenes" 
                 btnText="Check it out!" 
                 />
               </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                 heading="Kidsline Discount Code Automator" 
                 frontDetails={["Automated Python Script", "Python, Selenium, Web-Scraping", "For boosting efficiency in inputting discounted nanny codes through a Japanese childcare subsidiary program"]} 
                 backDescription="While not yet completed, this script came after acknowledging how much time my wife and I wasted copy and pasting discount codes daily for a childcare subsidiary program. On one-hand, I really can't complain about the sweet deals provided by the Japanese government for new parents. On the otherhand, dealing with two logins, two websites and mundane copy and pasting every day is a pain in the ass. So I simply decided to do what programmers do best: use tech to make life easier."
-                cta="In Progress" 
+                backHeading="In Progress" 
                 btnText="Source Code Coming Soon..." 
               />
               </div>

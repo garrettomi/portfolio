@@ -1,5 +1,5 @@
 
-const ProjectCard = ({href, imgClass, heading, frontDetails, backDescription, cta, btnText}) => {
+const ProjectCard = ({href, imgClass, heading, frontDetails, backDescription, backHeading, btnText}) => {
 
     return (
         <div className="card">
@@ -21,10 +21,10 @@ const ProjectCard = ({href, imgClass, heading, frontDetails, backDescription, ct
                     </div>
                   </div>
                   <div className={`card__side card__side--back ${imgClass}`}>
-                    <div className="card__cta">
-                      <div className="card__price-box">
-                        <p className="card__price-only">{cta}</p>
-                        <p className="card__price-value">{backDescription}</p>
+                    <div className="card__back-heading">
+                      <div className="card__back-box">
+                        <p className="card__back-title">{backHeading}</p>
+                        <p className="card__back-description">{backDescription}</p>
                       </div>
                       <a href={href} className="btn btn--white" target="_blank">{btnText}</a>
                     </div>

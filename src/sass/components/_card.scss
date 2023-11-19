@@ -144,7 +144,7 @@ $nannycode: url('/src/assets/nanny-code.jpg?url');
     }
 
     // FRONT SIDE STYLING
-    &__cta {
+    &__back-heading {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -153,18 +153,18 @@ $nannycode: url('/src/assets/nanny-code.jpg?url');
         text-align: center;
     }
 
-    &__price-box {
+    &__back-box {
         text-align: center;
         color: $color-white;
         margin-bottom: 8rem;
     }
 
-    &__price-only {
+    &__back-title {
         font-size: 2rem;
         text-transform: uppercase;
     }
 
-    &__price-value {
+    &__back-description {
         font-size: 1.5rem;
         font-weight: 100;
     }
