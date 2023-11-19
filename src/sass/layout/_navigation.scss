@@ -1,4 +1,7 @@
+$mail: url('/src/assets/mail.png?url');
+
 .navigation {
+
     &__checkbox {
         display: none;
     }
@@ -15,6 +18,11 @@
         box-shadow: 0 1rem 3rem rgba($color-black, .1);
         text-align: center;
         cursor: pointer;
+        background-image: $mail;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        transition: background-size 0.5s ease-in-out;
 
         @include respond(tab-port) {
             top: 4rem;
@@ -25,6 +33,10 @@
             top: 3rem;
             right: 3rem;
         }
+    }
+
+    &__button:hover {
+        background-size: 80%;
     }
 
     &__background {
@@ -124,51 +136,51 @@
     }
 
 
-    //ICON
-    &__icon {
-        position: relative;
-        margin-top: 3.5rem;
+    // //ICON
+    // &__icon {
+    //     position: relative;
+    //     margin-top: 3.5rem;
 
-        &,
-        &::before,
-        &::after {
-            width: 3rem;
-            height: 2px;
-            background-color: $color-grey-dark-3;
-            display: inline-block;
-        }
+    //     &,
+    //     &::before,
+    //     &::after {
+    //         width: 3rem;
+    //         height: 2px;
+    //         background-color: $color-grey-dark-3;
+    //         display: inline-block;
+    //     }
 
-        &::before,
-        &::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            transition: all .2s;
-        }
+    //     &::before,
+    //     &::after {
+    //         content: "";
+    //         position: absolute;
+    //         left: 0;
+    //         transition: all .2s;
+    //     }
 
-        &::before { top: -.8rem; }
-        &::after { top: .8rem; }
-    }
+    //     &::before { top: -.8rem; }
+    //     &::after { top: .8rem; }
+    // }
 
-    &__button:hover &__icon::before {
-        top: -1rem;
-    }
+    // &__button:hover &__icon::before {
+    //     top: -1rem;
+    // }
 
-    &__button:hover &__icon::after {
-        top: 1rem;
-    }
+    // &__button:hover &__icon::after {
+    //     top: 1rem;
+    // }
 
-    &__checkbox:checked + &__button &__icon {
-        background-color: transparent;
-    }
+    // &__checkbox:checked + &__button &__icon {
+    //     background-color: transparent;
+    // }
 
-    &__checkbox:checked + &__button &__icon::before {
-        top: 0;
-        transform: rotate(135deg);
-    }
+    // &__checkbox:checked + &__button &__icon::before {
+    //     top: 0;
+    //     transform: rotate(135deg);
+    // }
 
-    &__checkbox:checked + &__button &__icon::after {
-        top: 0;
-        transform: rotate(-135deg);
-    }
+    // &__checkbox:checked + &__button &__icon::after {
+    //     top: 0;
+    //     transform: rotate(-135deg);
+    // }
 }
