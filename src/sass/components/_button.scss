@@ -15,6 +15,11 @@
         //Change for the <button> element
         border: none;
         cursor: pointer;
+
+        @include respond(phone) {
+            padding: 0.5rem 2rem;
+            left: 4.5rem;
+        }
     }
     
     &:hover {
@@ -41,6 +46,7 @@
         &::after {
             background-color: $color-white;
         }
+
     }
 
     &--green {
