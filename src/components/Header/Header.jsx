@@ -4,14 +4,13 @@ import Button from './Button/Button';
 import BackgroundVideo from './BackgroundVideo/BackgroundVideo';
 
 import headshot from '../../assets/headshot-photo.png';
-import video from '../../assets/video.mp4';
-import videoWebm from '../../assets/video.webm';
+import portfolioVideo from '../../assets/portfolio-video.mp4'
 
 
 const Header = () => {
     return (
     <header className='header'>
-        <BackgroundVideo video={video} videoWebm={videoWebm} />
+        <BackgroundVideo video={portfolioVideo} />
             <div class="header__logo-box">
                 <Headshot src={headshot} alt="headshot" />
             </div>
