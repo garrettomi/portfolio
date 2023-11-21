@@ -17,7 +17,7 @@ const Home = () => {
           <Contributions />
         <Sticky>
         {({style}) => (
-          <div style={{ ...style, top: '45rem', width: '15%'}} className="u-center-text u-margin-top-huge">
+          <div style={{ ...style, top: '45rem', left: '50rem', width: '15%'}} className="u-center-text u-margin-top-huge">
           <a href="#" className="btn btn--green">Scroll Top</a>
           </div>
           )}
