@@ -31,13 +31,13 @@
         clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
     }
 
-    &__logo-box {
+    &__headshot-box {
         position: absolute;
         top: 13rem;
         right: 12rem;
     }
 
-    &__logo {
+    &__headshot {
         height: 18rem;
         border-radius: 40px;
     }

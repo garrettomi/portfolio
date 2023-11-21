@@ -10,7 +10,7 @@ const Header = () => {
     return (
     <header className='header'>
         <BackgroundVideo video={portfolioVideo} />
-            <div class="header__logo-box">
+            <div class="header__headshot-box">
                 <Headshot src={headshot} alt="headshot" />
             </div>
 
