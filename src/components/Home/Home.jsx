@@ -29,12 +29,6 @@ const Home = () => {
         </Sticky>
     </StickyContainer>
           </main>
-        // <main>
-        //   <About />
-        //   <TechStack />
-        //   <Projects />
-        //   <Contributions />
-        // </main>
       );
     }
 
