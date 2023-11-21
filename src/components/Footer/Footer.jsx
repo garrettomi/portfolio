@@ -32,7 +32,7 @@ const Footer = () => {
               <FooterNavigation items={navigationItems} />
             </div>
             <div className="col-1-of-2">
-              <FooterContact text="Email: omigarrett@gmail.com" />
+              <FooterContact text="email: omigarrett@gmail.com" />
             </div>
           </div>
         </footer>

@@ -1,7 +1,7 @@
 
 const FooterContact = ({ text }) => {
     return (
-        <p className='footer__copyright'>{text}</p>
+        <p className='footer__contact'>{text}</p>
     )
 }
 
