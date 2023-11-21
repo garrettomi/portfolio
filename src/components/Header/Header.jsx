@@ -3,7 +3,7 @@ import Heading from './Heading/Heading';
 import Button from './Button/Button';
 import BackgroundVideo from './BackgroundVideo/BackgroundVideo';
 import headshot from '../../assets/headshot-photo.png';
-import portfolioVideo from '../../assets/makun-types.mp4'
+import portfolioVideo from '../../assets/makun-work.mp4'
 
 
 const Header = () => {

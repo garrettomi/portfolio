@@ -3,15 +3,33 @@ import TechStack from './TechStack/TechStack';
 import Projects from './Projects/Projects';
 import Contributions from './Contributions/Contributions';
 
+import { Sticky, StickyContainer } from 'react-sticky';
+
 
 const Home = () => {
+
     return (
-        <main>
+      <main>
+      <StickyContainer>
           <About />
           <TechStack />
           <Projects />
           <Contributions />
-        </main>
+        <Sticky>
+        {({style}) => (
+          <div style={{ ...style, top: '45rem', width: '15%'}} className="u-center-text u-margin-top-huge">
+          <a href="#" className="btn btn--green">Scroll Top</a>
+          </div>
+          )}
+        </Sticky>
+    </StickyContainer>
+          </main>
+        // <main>
+        //   <About />
+        //   <TechStack />
+        //   <Projects />
+        //   <Contributions />
+        // </main>
       );
     }
 

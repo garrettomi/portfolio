@@ -1,4 +1,5 @@
 import Contribution from './Contribution/Contribution';
+import { Sticky, StickyContainer } from 'react-sticky';
 
 import discoverNikkei from '../../../assets/discover_nikkei.png';
 
@@ -14,9 +15,15 @@ const Contributions = () => {
               <div className="organization">
               <Contribution href="https://discovernikkei.org/en/" alt="Discover Nikkei Logo" src={discoverNikkei} main="Discover Nikkei" sub="Discover Nikkei - Software Engineer - Python, Django"/>
               </div>
+              {/* <StickyContainer>
               <div className="u-center-text u-margin-top-huge">
-              <a href="#" className="btn btn--green">Back to the top</a>
+                <Sticky>
+                {({style}) => (
+                  <a href="#" className="btn btn--green" style={style}>Back to the top</a>
+                )}
+                </Sticky>
             </div>
+            </StickyContainer> */}
             </div>
           </section>
     )

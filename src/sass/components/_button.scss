@@ -50,31 +50,31 @@
     }
 
     &--green {
-        background-color: $color-primary;
+        background-color: $color-primary-light;
         color: $color-white;
 
         &::after {
-            background-color: $color-primary;
+            background-color: $color-primary-light;
         }
     }
     
-    &::after {
-        content: "";
-        display: inline-block;
-        height: 100%;
-        width: 100%;
-        border-radius: 10rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        transition: all .4s;
-    }
+    // &::after {
+    //     content: "";
+    //     display: inline-block;
+    //     height: 10%;
+    //     width: 10%;
+    //     border-radius: 10rem;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     z-index: -1;
+    //     transition: all .4s;
+    // }
     
-    &--animated {
-        animation: moveInBottom .5s ease-out .75s;
-        animation-fill-mode: backwards;
-    }
+    // &--animated {
+    //     animation: moveInBottom .5s ease-out .75s;
+    //     animation-fill-mode: backwards;
+    // }
 }
 
 .btn-text {
