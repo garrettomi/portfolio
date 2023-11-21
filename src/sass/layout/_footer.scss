@@ -64,6 +64,13 @@
         }
     }
 
+    &__image {
+        display: inline-block;
+        height: 8rem;
+        width: 8rem;
+        border-radius: 50%;
+    }
+
     &__copyright {
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;

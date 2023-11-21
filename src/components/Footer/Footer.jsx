@@ -1,14 +1,19 @@
 import FooterNavigation from "./FooterNavigation/FooterNavigation";
 import FooterContact from "./FooterContact/FooterContact";
 
+import githubLogo from '../../assets/github.png';
+import linkedinLogo from '../../assets/linkedin.png'
+
 
 const Footer = () => {
   const navigationItems = [
     {
+      src: githubLogo,
       href: "https://www.linkedin.com/in/garrett-omi/",
       children: "LinkedIn"
     },
-    {
+    { 
+      src: linkedinLogo,
       href: "https://github.com/garrettomi",
       children: "Github"
     }
@@ -27,7 +32,7 @@ const Footer = () => {
               <FooterNavigation items={navigationItems} />
             </div>
             <div className="col-1-of-2">
-              <FooterContact text="omigarrett@gmail.com" />
+              <FooterContact text="Email: omigarrett@gmail.com" />
             </div>
           </div>
         </footer>
