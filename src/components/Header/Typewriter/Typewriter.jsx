@@ -11,7 +11,7 @@ const Typewriter = ({text, className, onComplete}) => {
             if (index + 1 === text.length) {
                 onComplete && onComplete();
             }
-        }, 150);
+        }, 120);
  
         return () => clearTimeout(timer);
     }, [index, text, onComplete]);
