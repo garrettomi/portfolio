@@ -204,7 +204,7 @@ $nannycode: url('/src/assets/kidsline.jpg?url');
         }
 
         // FRONT SIDE STYLING
-        &__cta {
+        &__back-heading {
             position: relative;
             top: 0%;
             left: 0;
@@ -213,11 +213,11 @@ $nannycode: url('/src/assets/kidsline.jpg?url');
             padding: 7rem 4rem 4rem 4rem;
         }
 
-        &__price-box {
+        &__back-box {
             margin-bottom: 3rem;
         }
 
-        &__price-value {
+        &__back-description {
             font-size: 1rem;
         }
     }
