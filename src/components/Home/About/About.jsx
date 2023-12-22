@@ -18,7 +18,7 @@ const About = () => {
                   Thanks for visiting my page!" />
                 <h3 className="heading-tertiary u-margin-bottom-small">From educator to engineer</h3>
                 <AboutText text="It was during the pandemic while I was still teaching at an international school where I first discovered my passion not just for coding, but for identifying issues and problem-solving through tech.
-                  It began with self-studying basic HTML, CSS and Javascript to build static webpages for optimizing daily life occurrences and use cases which transcended into a life-long commitment towards the world of software development." />
+                  It began with self-studying basic HTML, CSS and Javascript to build static webpages for optimizing classroom organization which transcended into a life-long commitment towards the world of software development." />
                 {/* <a href="#" className="btn-text">Learn more →</a> */}
               </div>
               <div className="col-1-of-2">
