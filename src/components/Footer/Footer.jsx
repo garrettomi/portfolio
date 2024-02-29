@@ -9,12 +9,12 @@ const Footer = () => {
   const navigationItems = [
     {
       src: githubLogo,
-      href: "https://www.linkedin.com/in/garrett-omi/",
+      href: "https://github.com/garrettomi",
       children: "LinkedIn"
     },
     { 
       src: linkedinLogo,
-      href: "https://github.com/garrettomi",
+      href: "https://www.linkedin.com/in/garrett-omi/",
       children: "Github"
     }
   ]
