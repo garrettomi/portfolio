@@ -13,7 +13,7 @@ const Header = () => {
                 <Heading main="Garrett Omi" sub="Software Engineer" />
 
                 <Button href="#about" className="btn btn--white btn--animated">About Me</Button>
-                <Button href="#projects" className="btn btn--white btn--animated">Projects</Button>
+                <Button href="#experience" className="btn btn--white btn--animated">Experience</Button>
                 <Button href="#contributions" className="btn btn--white btn--animated">Contributions</Button>
             </div>
     </header>

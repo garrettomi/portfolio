@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 
 const Projects = () => {
     return (
-        <section className="section-projects" id="projects">
+        <section className="section-projects" id="experience">
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
                 Work Experience
