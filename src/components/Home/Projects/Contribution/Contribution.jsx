@@ -10,8 +10,7 @@ const Contribution = ({href, alt, src, main, sub}) => {
         <div className="organization__text">
           <h3 className="heading-tertiary u-margin-bottom-small">{sub}</h3>
           <p>
-            As a yonsei, it's been an amazing honor to write code helping to preserve the largest digital archive of Nikkei history and stories.
-            Coolest point so far: in the midst of optimizing data transmission for a veterans search filter, I found actual family members who served in the 442 stored in the database. 
+            KINJO is a full-stack application created to serve English-speaking locals living in Japan by promoting user-interaction through community awareness and sustainable travel. 
           </p>
         </div>
       </a>

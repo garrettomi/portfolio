@@ -1,7 +1,7 @@
 import About from './About/About';
 import TechStack from './TechStack/TechStack';
 import Projects from './Experience/Projects';
-import Contributions from './Contributions/Contributions';
+import Contributions from './Projects/Contributions';
 
 import { Sticky, StickyContainer } from 'react-sticky';
 
