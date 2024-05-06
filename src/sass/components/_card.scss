@@ -1,5 +1,5 @@
 $arigatotravel: url('/src/assets/arigato-travel.png?url');
-$typemon: url('/src/assets/typemon_home.jpg?url');
+$discovernikkei: url('/src/assets/discover_nikkei.png?url');
 $nannycode: url('/src/assets/kidsline.jpg?url');
 
 .card {
@@ -74,7 +74,7 @@ $nannycode: url('/src/assets/kidsline.jpg?url');
 
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            $typemon;
+            $discovernikkei;
             background-position: center;
             background-repeat: no-repeat;
         }

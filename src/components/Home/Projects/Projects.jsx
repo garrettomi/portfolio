@@ -22,13 +22,13 @@ const Projects = () => {
               </div>
               <div className="col-1-of-3">
               <ProjectCard 
-                href="https://solo-mvp-frontend.vercel.app/login" 
+                href="https://discovernikkei.org/en/" 
                 imgClass="card__picture--2" 
-                heading="Typemon" 
-                frontDetails={["Web Application", "Next.js, Express.js, Node.js, Knex.js, PostgreSQL", "A Pokemon typing game which tests a users typing agility and accuracy with knowledge of Pokemon"]} 
-                backDescription="As a 90's kid, I grew up with typing games and Saturday morning Pokemon so I figured, why not put my two childhood experiences together? It was an absolute joy interacting with the official PokeAPI and sifting through the huge amounts of Pokemon data to make this thing a reality."
-                backHeading="Behind-the-scenes" 
-                btnText="Check it out!" 
+                heading="Discover Nikkei" 
+                frontDetails={["Backend Engineer", "Python, Django, PostgreSQL, Git", "The largest digital archive preserving historical and contemporary stories associated with Japanese descendants and emigration."]} 
+                backDescription="Involved in the migration of converting a legacy codebase into a modernized tech stack -- through identifying and refactoring artifacts, I was able to recover 19% of unused database storage and eliminate 50% of redundant website queries enhancing overall performance and optimization."
+                backHeading="My Involvement" 
+                btnText="Website" 
                 />
               </div>
               <div className="col-1-of-3">
