@@ -14,7 +14,7 @@ const Header = () => {
 
                 <Button href="#about" className="btn btn--white btn--animated">About Me</Button>
                 <Button href="#experience" className="btn btn--white btn--animated">Experience</Button>
-                <Button href="#projects" className="btn btn--white btn--animated">Contributions</Button>
+                <Button href="#projects" className="btn btn--white btn--animated">Projects</Button>
             </div>
     </header>
     
