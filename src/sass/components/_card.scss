@@ -1,6 +1,6 @@
 $arigatotravel: url('/src/assets/arigato-travel.png?url');
 $discovernikkei: url('/src/assets/discover_nikkei.png?url');
-$nannycode: url('/src/assets/kidsline.jpg?url');
+$poodll: url('/src/assets/poodll.png?url');
 
 .card {
 
@@ -69,7 +69,7 @@ $nannycode: url('/src/assets/kidsline.jpg?url');
             $arigatotravel;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: 120%;
+            background-size: 100%;
         }
 
         &--2 {
@@ -81,8 +81,9 @@ $nannycode: url('/src/assets/kidsline.jpg?url');
 
         &--3 {
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
-            $nannycode;
+            $poodll;
             background-position: center;
+            background-size: 100%;
         }
     }
 

@@ -33,13 +33,13 @@ const Projects = () => {
               </div>
               <div className="col-1-of-3">
               <ProjectCard 
-                href="#" 
+                href="https://poodll.com/" 
                 imgClass="card__picture--3" 
-                heading="Automated Nanny Script" 
-                frontDetails={["Automated Python Script", "Python, Selenium, Web-Scraping", "For boosting efficiency in inputting discounted nanny codes through a Japanese childcare subsidiary program"]} 
-                backDescription="While not yet completed, this script came after acknowledging how much time my wife and I wasted copy and pasting discount codes daily for a childcare subsidiary program. On one-hand, I really can't complain about the sweet deals provided by the Japanese government for new parents. On the otherhand, dealing with two logins, two websites and mundane copy and pasting every day is a pain in the ass. So I simply decided to do what programmers do best: use tech to make life easier."
-                backHeading="In Progress" 
-                btnText="Source Code Coming Soon..." 
+                heading="Poodll" 
+                frontDetails={["Web Developer", "Javascript, Node.js", "An Ed-Tech web-based product for audio and video recording focused on language learning for Moodle utilized by training organizations and universities."]} 
+                backDescription="Incorporated 3rd party API integration for allowing customizable video clip embedding within client-facing e-learning modules."
+                backHeading="My Involvement" 
+                btnText="Website" 
               />
               </div>
             </div>
