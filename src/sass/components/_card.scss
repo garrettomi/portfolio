@@ -1,4 +1,4 @@
-$kinjo: url('/src/assets/kinjo_home.jpg?url');
+$arigatotravel: url('/src/assets/arigato-travel.png?url');
 $typemon: url('/src/assets/typemon_home.jpg?url');
 $nannycode: url('/src/assets/kidsline.jpg?url');
 
@@ -66,7 +66,7 @@ $nannycode: url('/src/assets/kidsline.jpg?url');
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            $kinjo;
+            $arigatotravel;
             background-position: center;
             background-repeat: no-repeat;
             background-size: 120%;

@@ -5,19 +5,19 @@ const Projects = () => {
         <section className="section-projects" id="projects">
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
-                Projects
+                Work Experience
               </h2>
             </div>
             <div className="row">
               <div className="col-1-of-3">
               <ProjectCard
-                href="https://www.kinjo-japan.com/"
+                href="https://arigatojapan.co.jp/"
                 imgClass="card__picture--1"
-                heading="KINJO"
-                frontDetails={["Web Application", "React, Typescript, Node.js, Prisma, PostgreSQL", "An application for English-speaking locals in Japan to share and learn about hidden neighborhood destinations"]}
-                backDescription= "Since I wander around Tokyo so much by bike, I'm a big lover of anything map-related when it comes to apps. Working on KINJO's map gave me free-range to nerd out and implement the map features I'd always dreamed of using with a team of equally passionate Japan enthusiasts."
-                backHeading="Behind-the-scenes"
-                btnText="Check it out!"
+                heading="Arigato Travel"
+                frontDetails={["Software Engineer", "Next JS, Typescript, Tailwind, GraphQL", "A travel company specializing in multilingual culinary and cultural tours and experiences for visitors of Japan."]}
+                backDescription= "Responsible for migrating the customer-facing e-commerce and blog Wordpress site to an independently dedicated Next JS application for scaling better performance and customization"
+                backHeading="My Involvement"
+                btnText="Website"
                 />
               </div>
               <div className="col-1-of-3">
