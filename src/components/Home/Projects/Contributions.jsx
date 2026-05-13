@@ -1,6 +1,5 @@
 import Contribution from "./Contribution/Contribution";
 
-import kinjo from "../../../assets/kinjo_home.jpg";
 import soloEngineer from "../../../assets/solo-engineer.jpg";
 
 const Contributions = () => {
