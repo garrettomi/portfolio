@@ -1,4 +1,4 @@
-const Contribution = ({ href, alt, src, main, sub }) => {
+const Contribution = ({ href, alt, src, main, sub, desc }) => {
   return (
     <a href={href} className="nikkei-link" target="_blank">
       <figure className="organization__shape">
@@ -7,10 +7,7 @@ const Contribution = ({ href, alt, src, main, sub }) => {
       </figure>
       <div className="organization__text">
         <h3 className="heading-tertiary u-margin-bottom-small">{sub}</h3>
-        <p>
-          A candid look at what it's really like working as a solo or small-team
-          engineer in Japan — and how to know if it's right for you.
-        </p>
+        <p>{desc}</p>
       </div>
     </a>
   );
